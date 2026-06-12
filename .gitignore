@@ -1,5 +1,12 @@
 node_modules/
-package-lock.json
 dist/
-data/*.sqlite
+data/
+*.sqlite
+*.sqlite-journal
 .env
+package-lock.json
+.DS_Store
+*.log
+tsconfig.build.tsbuildinfo
+coverage/
+.nyc_output/
